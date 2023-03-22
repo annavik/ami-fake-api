@@ -1,5 +1,6 @@
 {
   "Event": {
+    "event": { "string": {} },
     "_": {
       "data": [
         {
