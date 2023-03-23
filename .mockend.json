@@ -211,9 +211,50 @@
       ]
     }
   },
-  "Setting": {
+  "BatchId": {
     "_": {
-      "data": []
+      "data": [
+        {
+          "complete": 19,
+          "description": "Unprocessed images",
+          "id": "unprocessed",
+          "queued": 0,
+          "status": "stopped",
+          "unprocessed": 159
+        },
+        {
+          "complete": 166,
+          "description": "Detected objects",
+          "id": "detected",
+          "queued": 12,
+          "status": "stopped",
+          "unprocessed": 0
+        },
+        {
+          "complete": 148,
+          "description": "Unclassified objects",
+          "id": "unclassified",
+          "queued": 0,
+          "status": "stopped",
+          "unprocessed": 0
+        },
+        {
+          "complete": 148,
+          "description": "Detections without features",
+          "id": "without-features",
+          "queued": 0,
+          "status": "stopped",
+          "unprocessed": 0
+        },
+        {
+          "complete": 148,
+          "description": "Untracked detections",
+          "id": "untracked",
+          "queued": 0,
+          "status": "stopped",
+          "unprocessed": 0
+        }
+      ]
     }
   }
 }
