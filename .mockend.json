@@ -80,8 +80,8 @@
     }
   },
   "Detection": {
-    "sequence_cost": { "number": {} },
-    "category_score": { "number": {} },
+    "sequence_cost": { "int": {} },
+    "category_score": { "int": {} },
     "_": {
       "data": [
         {
