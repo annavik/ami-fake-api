@@ -81,6 +81,7 @@
   },
   "Detection": {
     "sequence_cost": { "number": {} },
+    "category_score": { "number": {} },
     "_": {
       "data": [
         {
@@ -88,7 +89,6 @@
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-65",
           "sequence_frame": 14,
-          "sequence_cost": 0.1116142075,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/364aaab324d00bf8910acb864adfc562.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -96,15 +96,13 @@
           "bbox_center": [111.5, 856.0],
           "area_pixels": 67346,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Catocala umbrosa",
-          "category_score": 0.1154476628
+          "category_label": "Catocala umbrosa"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-2",
           "sequence_frame": 0,
-          "sequence_cost": 0,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/f74db3528d9982f4f1a1452cdf3b26ba.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -112,15 +110,13 @@
           "bbox_center": [2465.0, 1129.0],
           "area_pixels": 47380,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Rheumaptera prunivorata",
-          "category_score": 0.4796746075
+          "category_label": "Rheumaptera prunivorata"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-68",
           "sequence_frame": 14,
-          "sequence_cost": 0.1034607421,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/83fcdae9ba29d45e9dcc7364c7d2c96f.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -128,15 +124,13 @@
           "bbox_center": [3625.5, 66.0],
           "area_pixels": 25728,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Hypsopygia binodulalis",
-          "category_score": 0.07563968
+          "category_label": "Hypsopygia binodulalis"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-42",
           "sequence_frame": 1,
-          "sequence_cost": 0.3788437241,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/6107e3bcf2ec4e78ab60bb172327071b.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -144,15 +138,13 @@
           "bbox_center": [4005.0, 517.5],
           "area_pixels": 25926,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Apogeshna stenialis",
-          "category_score": 0.5855584741
+          "category_label": "Apogeshna stenialis"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-70",
           "sequence_frame": 14,
-          "sequence_cost": 0.0453091617,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/c2535aa928fea63b8beb96a0a0d09da7.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -160,15 +152,13 @@
           "bbox_center": [3371.0, 388.0],
           "area_pixels": 54468,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Oreta rosea",
-          "category_score": 0.8905330896
+          "category_label": "Oreta rosea"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "",
           "sequence_frame": 0,
-          "sequence_cost": 0,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/7e726c4c7177fdf8d255a0bef84a5f81.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -176,15 +166,13 @@
           "bbox_center": [2209.0, 2058.5],
           "area_pixels": 44254,
           "model_name": "Moth / Non-Moth Classifier",
-          "category_label": "nonmoth",
-          "category_score": 0.9486746192
+          "category_label": "nonmoth"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-39",
           "sequence_frame": 1,
-          "sequence_cost": 0.0902704374,
           "source_image": "2022_06_21_snapshots/20220621044959-283-snapshot.jpg",
           "cropped_image": "crops/796aacb4704c80eea914c5265fdc036b.jpg",
           "timestamp": "2022-06-21T04:49:59",
@@ -192,15 +180,13 @@
           "bbox_center": [3805.5, 1579.0],
           "area_pixels": 95438,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Eusarca confusaria",
-          "category_score": 0.5840932131
+          "category_label": "Eusarca confusaria"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-65",
           "sequence_frame": 15,
-          "sequence_cost": 0.0335153992,
           "source_image": "2022_06_21_snapshots/20220621050059-293-snapshot.jpg",
           "cropped_image": "crops/21cf204f0e701c00b15cf1422e8fe20c.jpg",
           "timestamp": "2022-06-21T05:00:59",
@@ -208,15 +194,13 @@
           "bbox_center": [111.5, 856.5],
           "area_pixels": 67123,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Phobetron pithecium",
-          "category_score": 0.4759249389
+          "category_label": "Phobetron pithecium"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-42",
           "sequence_frame": 2,
-          "sequence_cost": 0.3970676988,
           "source_image": "2022_06_21_snapshots/20220621050059-293-snapshot.jpg",
           "cropped_image": "crops/65a2b329ead741e67840b7e18ca93f0c.jpg",
           "timestamp": "2022-06-21T05:00:59",
@@ -224,15 +208,13 @@
           "bbox_center": [4002.0, 495.0],
           "area_pixels": 26320,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Herpetogramma thestealis",
-          "category_score": 0.1909735799
+          "category_label": "Herpetogramma thestealis"
         },
         {
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20",
           "sequence": "20220620-SEQ-70",
           "sequence_frame": 15,
-          "sequence_cost": 0.0771320381,
           "source_image": "2022_06_21_snapshots/20220621050059-293-snapshot.jpg",
           "cropped_image": "crops/0d3b3439587f3949a60d235debd935be.jpg",
           "timestamp": "2022-06-21T05:00:59",
@@ -240,8 +222,7 @@
           "bbox_center": [3374.0, 389.5],
           "area_pixels": 55002,
           "model_name": "Quebec & Vermont Species Classifier - Mixed Resolution",
-          "category_label": "Drepana arcuata",
-          "category_score": 0.4555698931
+          "category_label": "Drepana arcuata"
         }
       ]
     }
