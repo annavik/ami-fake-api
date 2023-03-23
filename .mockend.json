@@ -213,7 +213,167 @@
   },
   "Setting": {
     "_": {
-      "data": []
+      "data": [
+        {
+          "title": "Settings",
+          "description": "Base class for settings, allowing values to be overridden by environment variables.\n\nThis is useful in production for secrets you do not wish to save in code, it plays nicely with docker(-compose),\nHeroku and any 12 factor app design.",
+          "type": "object",
+          "properties": {
+            "database_url": {
+              "title": "Database connection string",
+              "description": "Defaults to a local SQLite database that will automatically be created. Supports PostgreSQL.",
+              "kivy_type": "string",
+              "kivy_section": "paths",
+              "input_type": "string",
+              "env_names": ["ami_database_url"],
+              "type": "string"
+            },
+            "user_data_path": {
+              "title": "Local directory for models, thumbnails & reports",
+              "description": "Model weights are between 100-200Mb and will be downloaded the first time a model is used.",
+              "kivy_type": "path",
+              "kivy_section": "paths",
+              "input_type": "file-input",
+              "env_names": ["ami_user_data_path"],
+              "type": "string",
+              "format": "path"
+            },
+            "image_base_path": {
+              "title": "Trap images",
+              "description": "The root folder containing images from all nights that will be processed. It is recommended to start with a small sample.",
+              "kivy_type": "path",
+              "kivy_section": "paths",
+              "input_type": "file-input",
+              "env_names": ["ami_image_base_path"],
+              "type": "string",
+              "format": "path"
+            },
+            "localization_model": {
+              "title": "Localization model",
+              "description": "Model & settings to use for object detection in original images from camera trap.",
+              "kivy_type": "options",
+              "kivy_section": "models",
+              "input_type": "select",
+              "env_names": ["ami_localization_model"],
+              "allOf": [
+                {
+                  "$ref": "#/definitions/ObjectDetectorChoice"
+                }
+              ]
+            },
+            "binary_classification_model": {
+              "title": "Binary classification model",
+              "description": "Model & settings to use for moth / non-moth classification of cropped images after object detection.",
+              "kivy_type": "options",
+              "kivy_section": "models",
+              "input_type": "select",
+              "env_names": ["ami_binary_classification_model"],
+              "allOf": [
+                {
+                  "$ref": "#/definitions/BinaryClassifierChoice"
+                }
+              ]
+            },
+            "species_classification_model": {
+              "title": "Species classification model",
+              "description": "Model & settings to use for fine-grained species or taxon-level classification of cropped images after moth/non-moth detection.",
+              "kivy_type": "options",
+              "kivy_section": "models",
+              "input_type": "select",
+              "env_names": ["ami_species_classification_model"],
+              "allOf": [
+                {
+                  "$ref": "#/definitions/SpeciesClassifierChoice"
+                }
+              ]
+            },
+            "feature_extractor": {
+              "title": "Feature extractor used for image similarity search and occurrence tracking",
+              "description": "CNN model for extracting the embedded feature vector of an image used for similarity comparisons.",
+              "kivy_type": "options",
+              "kivy_section": "models",
+              "input_type": "select",
+              "env_names": ["ami_feature_extractor"],
+              "allOf": [
+                {
+                  "$ref": "#/definitions/TrackingAlgorithm"
+                }
+              ]
+            },
+            "classification_threshold": {
+              "title": "Classification threshold",
+              "description": "Only show results with a confidence score greater or equal to this value.",
+              "default": 0.6,
+              "kivy_type": "numeric",
+              "kivy_section": "models",
+              "input_type": "select",
+              "env_names": ["ami_classification_threshold"],
+              "type": "number"
+            },
+            "localization_batch_size": {
+              "title": "Localization Batch Size",
+              "description": "Number of images to process per-batch during localization. These are large images (e.g. 4096x2160px), smaller batch sizes are appropriate (1-10). Reduce this if you run out of memory.",
+              "default": 1,
+              "exclusiveMinimum": 0,
+              "exclusiveMaximum": 20,
+              "env_names": ["ami_localization_batch_size"],
+              "type": "integer"
+            },
+            "classification_batch_size": {
+              "title": "Classification batch size",
+              "description": "Number of images to process per-batch during classification. These are small images (e.g. 50x100px), larger batch sizes are appropriate (10-200). Reduce this if you run out of memory.",
+              "default": 20,
+              "kivy_type": "numeric",
+              "kivy_section": "performance",
+              "env_names": ["ami_classification_batch_size"],
+              "type": "integer"
+            },
+            "num_workers": {
+              "title": "Number of workers",
+              "description": "Number of parallel workers for the PyTorch dataloader. See https://pytorch.org/docs/stable/data.html",
+              "default": 1,
+              "kivy_type": "numeric",
+              "kivy_section": "performance",
+              "env_names": ["ami_num_workers"],
+              "type": "integer"
+            }
+          },
+          "definitions": {
+            "ObjectDetectorChoice": {
+              "title": "ObjectDetectorChoice",
+              "description": "An enumeration.",
+              "enum": [
+                "FasterRCNN for AMI Moth Traps 2021",
+                "Pre-trained FasterRCNN with MobileNet backend"
+              ]
+            },
+            "BinaryClassifierChoice": {
+              "title": "BinaryClassifierChoice",
+              "description": "An enumeration.",
+              "enum": ["Moth / Non-Moth Classifier"]
+            },
+            "SpeciesClassifierChoice": {
+              "title": "SpeciesClassifierChoice",
+              "description": "An enumeration.",
+              "enum": [
+                "Quebec & Vermont Species Classifier - Mixed Resolution",
+                "Quebec & Vermont Species Classifier - Low Resolution",
+                "Panama Species Classifier - Mixed Resolution",
+                "Quebec & Vermont Species Classifier",
+                "UK & Denmark Species Classifier"
+              ]
+            },
+            "TrackingAlgorithm": {
+              "title": "TrackingAlgorithm",
+              "description": "An enumeration.",
+              "enum": [
+                "Features from Quebec/Vermont species model",
+                "Features from general Moth/Non-Moth model"
+              ]
+            }
+          }
+        }
+      ]
     }
   }
 }
