@@ -80,9 +80,7 @@
     }
   },
   "Detection": {
-    "sequence_cost": {
-      "type": "number"
-    },
+    "sequence_cost": { "number": {} },
     "_": {
       "data": [
         {
