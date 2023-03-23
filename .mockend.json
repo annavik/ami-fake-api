@@ -255,11 +255,7 @@
               "kivy_section": "models",
               "input_type": "select",
               "env_names": ["ami_localization_model"],
-              "allOf": [
-                {
-                  "$ref": "#/definitions/ObjectDetectorChoice"
-                }
-              ]
+              "options_ref": "ObjectDetectorChoice"
             },
             "binary_classification_model": {
               "title": "Binary classification model",
@@ -268,11 +264,7 @@
               "kivy_section": "models",
               "input_type": "select",
               "env_names": ["ami_binary_classification_model"],
-              "allOf": [
-                {
-                  "$ref": "#/definitions/BinaryClassifierChoice"
-                }
-              ]
+              "options_ref": "BinaryClassifierChoice"
             },
             "species_classification_model": {
               "title": "Species classification model",
@@ -281,11 +273,7 @@
               "kivy_section": "models",
               "input_type": "select",
               "env_names": ["ami_species_classification_model"],
-              "allOf": [
-                {
-                  "$ref": "#/definitions/SpeciesClassifierChoice"
-                }
-              ]
+              "options_ref": "SpeciesClassifierChoice"
             },
             "feature_extractor": {
               "title": "Feature extractor used for image similarity search and occurrence tracking",
@@ -294,11 +282,7 @@
               "kivy_section": "models",
               "input_type": "select",
               "env_names": ["ami_feature_extractor"],
-              "allOf": [
-                {
-                  "$ref": "#/definitions/TrackingAlgorithm"
-                }
-              ]
+              "options_ref": "TrackingAlgorithm"
             },
             "classification_threshold": {
               "title": "Classification threshold",
