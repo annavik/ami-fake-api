@@ -290,5 +290,286 @@
         }
       ]
     }
+  },
+  "Example": {
+    "_": {
+      "data": [
+        {
+          "id": 621,
+          "source_image_id": 52,
+          "label": "Cnephasia stephensiana",
+          "score": "0.4972509146",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/be67f939099d9650caae55eba048878f.jpg",
+          "sequence_id": "20220620-SEQ-621",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 891,
+          "source_image_id": 51,
+          "label": "Baileya ophthalmica",
+          "score": "0.6640653014",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/83e6a432e1e37f6225ec6f0f565d945c.jpg",
+          "sequence_id": "20220620-SEQ-891",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 618,
+          "source_image_id": 52,
+          "label": "Baileya ophthalmica",
+          "score": "0.5146425366",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/06dfba2f92af15d4b994a6b88c69dc1b.jpg",
+          "sequence_id": "20220620-SEQ-891",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 894,
+          "source_image_id": 51,
+          "label": "Palpita magniferalis",
+          "score": "0.9035389423",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/f5be174da77af19cc557551707f4931a.jpg",
+          "sequence_id": "20220620-SEQ-596",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 596,
+          "source_image_id": 50,
+          "label": "Palpita magniferalis",
+          "score": "0.8832399845",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/9821ae09a89fcfb6828145e2d5b98eb9.jpg",
+          "sequence_id": "20220620-SEQ-596",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 619,
+          "source_image_id": 52,
+          "label": "Palpita magniferalis",
+          "score": "0.8345428705",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/766e648779ca5d44b316a6576a3f0588.jpg",
+          "sequence_id": "20220620-SEQ-596",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 591,
+          "source_image_id": 50,
+          "label": "Melanchra adjuncta",
+          "score": "0.4992120862",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/21cf204f0e701c00b15cf1422e8fe20c.jpg",
+          "sequence_id": "20220620-SEQ-591",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 889,
+          "source_image_id": 51,
+          "label": "Heterocampa biundata",
+          "score": "0.2528738081",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/d6fc01779c09c285df0249fc7f87244e.jpg",
+          "sequence_id": "20220620-SEQ-591",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 615,
+          "source_image_id": 52,
+          "label": "Notodonta torva",
+          "score": "0.1616430134",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/432f40cd6c6ba5a0cc8d2edbf262bc6a.jpg",
+          "sequence_id": "20220620-SEQ-591",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 616,
+          "source_image_id": 52,
+          "label": "Herpetogramma pertextalis",
+          "score": "0.6549816728",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/a05e60c4f88ca2e16058d3249207b363.jpg",
+          "sequence_id": "20220620-SEQ-592",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 890,
+          "source_image_id": 51,
+          "label": "Herpetogramma pertextalis",
+          "score": "0.6072719693",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/01a64c0ca1d8ece45bcb30922635076a.jpg",
+          "sequence_id": "20220620-SEQ-592",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 592,
+          "source_image_id": 50,
+          "label": "Herpetogramma pertextalis",
+          "score": "0.5455369949",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/65a2b329ead741e67840b7e18ca93f0c.jpg",
+          "sequence_id": "20220620-SEQ-592",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 620,
+          "source_image_id": 52,
+          "label": "Elophila tinealis",
+          "score": "0.2644157112",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/8e818485cf243215389266f279dbbb22.jpg",
+          "sequence_id": "20220620-SEQ-597",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 597,
+          "source_image_id": 50,
+          "label": "Marathyssa inficita",
+          "score": "0.1570423245",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/7d36357d51ac504087c587bac3da7ce3.jpg",
+          "sequence_id": "20220620-SEQ-597",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 893,
+          "source_image_id": 51,
+          "label": "Eulogia ochrifrontella",
+          "score": "0.1387631744",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/425fa2b621cfbc92290838365a61cb75.jpg",
+          "sequence_id": "20220620-SEQ-597",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 593,
+          "source_image_id": 50,
+          "label": "Dryocampa rubicunda",
+          "score": "0.5982086658",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/0d3b3439587f3949a60d235debd935be.jpg",
+          "sequence_id": "20220620-SEQ-593",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 622,
+          "source_image_id": 52,
+          "label": "Dryocampa rubicunda",
+          "score": "0.5975863338",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/ffd49ec635027e9c854f9cb9b24d229e.jpg",
+          "sequence_id": "20220620-SEQ-593",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 892,
+          "source_image_id": 51,
+          "label": "Dryocampa rubicunda",
+          "score": "0.4405939281",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/a8d834217597a914479ebc7d051cea7c.jpg",
+          "sequence_id": "20220620-SEQ-593",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+        {
+          "id": 595,
+          "source_image_id": 50,
+          "label": "Cnephasia stephensiana",
+          "score": "0.3671153486",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/0675de730ffc12303c05c5d6f8081568.jpg",
+          "sequence_id": "20220620-SEQ-595",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 617,
+          "source_image_id": 52,
+          "label": "Campaea perlata",
+          "score": "0.9207727313",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/6162277c49e22476f3045b27f4935b96.jpg",
+          "sequence_id": "20220620-SEQ-594",
+          "timestamp": "2022-06-21T05:23:00.000"
+        },
+        {
+          "id": 594,
+          "source_image_id": 50,
+          "label": "Campaea perlata",
+          "score": "0.9034793377",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/1e64c712a22982d2afb66d1a1239069d.jpg",
+          "sequence_id": "20220620-SEQ-594",
+          "timestamp": "2022-06-21T05:00:59.000"
+        },
+        {
+          "id": 895,
+          "source_image_id": 51,
+          "label": "Campaea perlata",
+          "score": "0.8851410151",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/9df5056aefc9609e19dec77cff2dbf4d.jpg",
+          "sequence_id": "20220620-SEQ-594",
+          "timestamp": "2022-06-21T05:11:58.000"
+        },
+
+        {
+          "id": 576,
+          "source_image_id": 48,
+          "label": "Proteoteras aesculana",
+          "score": "0.0702013969",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/15877cee9bff27cff1f8bfafed3f66b5.jpg",
+          "sequence_id": "20220620-SEQ-576",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+        {
+          "id": 568,
+          "source_image_id": 48,
+          "label": "Palpita magniferalis",
+          "score": "0.4153832793",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/5cc34ca30cc33178a57bc7e0920b1c87.jpg",
+          "sequence_id": "20220620-SEQ-568",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+        {
+          "id": 575,
+          "source_image_id": 48,
+          "label": "Herpetogramma thestealis",
+          "score": "0.1646621823",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/fc023e4901712e61016dc9fd2c437fe2.jpg",
+          "sequence_id": "20220620-SEQ-575",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+
+        {
+          "id": 570,
+          "source_image_id": 48,
+          "label": "Cnephasia stephensiana",
+          "score": "0.0714265928",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/f09e6d22f01dca2a45f871a947733d5b.jpg",
+          "sequence_id": "20220620-SEQ-570",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+
+        {
+          "id": 574,
+          "source_image_id": 48,
+          "label": "Campaea perlata",
+          "score": "0.9173083901",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/b8a563563e53543bc1f5cd3bdb4e29dd.jpg",
+          "sequence_id": "20220620-SEQ-574",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+
+        {
+          "id": 572,
+          "source_image_id": 48,
+          "label": "Campaea perlata",
+          "score": "0.9282228351",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/bcba71457595b73f001c0199737b359c.jpg",
+          "sequence_id": "20220620-SEQ-572",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+
+        {
+          "id": 566,
+          "source_image_id": 48,
+          "label": "Palpita magniferalis",
+          "score": "0.7558439374",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/9de71bd31c3f1ebb406d2d7d319bc416.jpg",
+          "sequence_id": "20220620-SEQ-562",
+          "timestamp": "2022-06-21T04:39:00.000"
+        },
+        {
+          "id": 562,
+          "source_image_id": 47,
+          "label": "Palpita magniferalis",
+          "score": "0.6908021569",
+          "cropped_image_path": "https://object-arbutus.cloud.computecanada.ca/ami-trapdata/crops/c45eacee79d23858a1b45f9c0ad477b2.jpg",
+          "sequence_id": "20220620-SEQ-562",
+          "timestamp": "2022-06-21T04:27:59.000"
+        }
+      ]
+    }
   }
 }
