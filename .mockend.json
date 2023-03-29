@@ -1,5 +1,11 @@
 {
   "Event": {
+    "duration_minutes": {
+      "int": {}
+    },
+    "num_source_images": {
+      "int": {}
+    },
     "_": {
       "data": [
         {
