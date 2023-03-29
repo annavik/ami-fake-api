@@ -131,7 +131,7 @@
         {
           "id": "20220620-SEQ-621",
           "label": "Cnephasia stephensiana",
-          "best_score": 0.4972509146,
+          "best_score": "0.4972509146",
           "start_time": "2022-06-21T05:23:00.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H0M0S",
@@ -141,7 +141,7 @@
         {
           "id": "20220620-SEQ-891",
           "label": "Baileya ophthalmica",
-          "best_score": 0.6640653014,
+          "best_score": "0.6640653014",
           "start_time": "2022-06-21T05:11:58.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H11M2S",
@@ -151,7 +151,7 @@
         {
           "id": "20220620-SEQ-596",
           "label": "Palpita magniferalis",
-          "best_score": 0.9035389423,
+          "best_score": "0.9035389423",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -161,7 +161,7 @@
         {
           "id": "20220620-SEQ-591",
           "label": "Melanchra adjuncta",
-          "best_score": 0.4992120862,
+          "best_score": "0.4992120862",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -171,7 +171,7 @@
         {
           "id": "20220620-SEQ-592",
           "label": "Herpetogramma pertextalis",
-          "best_score": 0.6549816728,
+          "best_score": "0.6549816728",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -181,7 +181,7 @@
         {
           "id": "20220620-SEQ-597",
           "label": "Elophila tinealis",
-          "best_score": 0.2644157112,
+          "best_score": "0.2644157112",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -191,7 +191,7 @@
         {
           "id": "20220620-SEQ-593",
           "label": "Dryocampa rubicunda",
-          "best_score": 0.5982086658,
+          "best_score": "0.5982086658",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -201,7 +201,7 @@
         {
           "id": "20220620-SEQ-595",
           "label": "Cnephasia stephensiana",
-          "best_score": 0.3671153486,
+          "best_score": "0.3671153486",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:00:59.000",
           "duration": "P0DT0H0M0S",
@@ -211,7 +211,7 @@
         {
           "id": "20220620-SEQ-594",
           "label": "Campaea perlata",
-          "best_score": 0.9207727313,
+          "best_score": "0.9207727313",
           "start_time": "2022-06-21T05:00:59.000",
           "end_time": "2022-06-21T05:23:00.000",
           "duration": "P0DT0H22M1S",
@@ -221,7 +221,7 @@
         {
           "id": "20220620-SEQ-576",
           "label": "Proteoteras aesculana",
-          "best_score": 0.0702013969,
+          "best_score": "0.0702013969",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -231,7 +231,7 @@
         {
           "id": "20220620-SEQ-568",
           "label": "Palpita magniferalis",
-          "best_score": 0.4153832793,
+          "best_score": "0.4153832793",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -241,7 +241,7 @@
         {
           "id": "20220620-SEQ-575",
           "label": "Herpetogramma thestealis",
-          "best_score": 0.1646621823,
+          "best_score": "0.1646621823",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -251,7 +251,7 @@
         {
           "id": "20220620-SEQ-570",
           "label": "Cnephasia stephensiana",
-          "best_score": 0.0714265928,
+          "best_score": "0.0714265928",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -261,7 +261,7 @@
         {
           "id": "20220620-SEQ-574",
           "label": "Campaea perlata",
-          "best_score": 0.9173083901,
+          "best_score": "0.9173083901",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -271,7 +271,7 @@
         {
           "id": "20220620-SEQ-572",
           "label": "Campaea perlata",
-          "best_score": 0.9282228351,
+          "best_score": "0.9282228351",
           "start_time": "2022-06-21T04:39:00.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H0M0S",
@@ -281,240 +281,10 @@
         {
           "id": "20220620-SEQ-562",
           "label": "Palpita magniferalis",
-          "best_score": 0.7558439374,
+          "best_score": "0.7558439374",
           "start_time": "2022-06-21T04:27:59.000",
           "end_time": "2022-06-21T04:39:00.000",
           "duration": "P0DT0H11M1S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-560",
-          "label": "Iridopsis larvaria",
-          "best_score": 0.8854153156,
-          "start_time": "2022-06-21T04:27:59.000",
-          "end_time": "2022-06-21T04:27:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-549",
-          "label": "Palpita magniferalis",
-          "best_score": 0.5611435175,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:17:00.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-547",
-          "label": "Heterocampa guttivitta",
-          "best_score": 0.449901849,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:39:00.000",
-          "duration": "P0DT0H22M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-548",
-          "label": "Lophocampa caryae",
-          "best_score": 0.8133696318,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:17:00.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-552",
-          "label": "Iridopsis larvaria",
-          "best_score": 0.8141368628,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:17:00.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-550",
-          "label": "Dryocampa rubicunda",
-          "best_score": 0.5969689488,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:39:00.000",
-          "duration": "P0DT0H22M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-551",
-          "label": "Erannis tiliaria",
-          "best_score": 0.3175820112,
-          "start_time": "2022-06-21T04:17:00.000",
-          "end_time": "2022-06-21T04:39:00.000",
-          "duration": "P0DT0H22M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-519",
-          "label": "Parapoynx allionealis",
-          "best_score": 0.3214188218,
-          "start_time": "2022-06-21T03:43:59.000",
-          "end_time": "2022-06-21T03:43:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-522",
-          "label": "Palpita magniferalis",
-          "best_score": 0.8726530671,
-          "start_time": "2022-06-21T03:43:59.000",
-          "end_time": "2022-06-21T03:55:00.000",
-          "duration": "P0DT0H11M1S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-523",
-          "label": "Macaria notata",
-          "best_score": 0.3968930244,
-          "start_time": "2022-06-21T03:43:59.000",
-          "end_time": "2022-06-21T03:43:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-526",
-          "label": "Barbara mappana",
-          "best_score": 0.1431078017,
-          "start_time": "2022-06-21T03:43:59.000",
-          "end_time": "2022-06-21T03:43:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-499",
-          "label": "Palpita arsaltealis",
-          "best_score": 0.7272497416,
-          "start_time": "2022-06-21T03:32:59.000",
-          "end_time": "2022-06-21T03:43:59.000",
-          "duration": "P0DT0H11M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-502",
-          "label": "Macaria notata",
-          "best_score": 0.0623886772,
-          "start_time": "2022-06-21T03:32:59.000",
-          "end_time": "2022-06-21T03:32:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-503",
-          "label": "Iridopsis larvaria",
-          "best_score": 0.9206727743,
-          "start_time": "2022-06-21T03:32:59.000",
-          "end_time": "2022-06-21T03:32:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-505",
-          "label": "Campaea perlata",
-          "best_score": 0.9034676552,
-          "start_time": "2022-06-21T03:32:59.000",
-          "end_time": "2022-06-21T03:55:00.000",
-          "duration": "P0DT0H22M1S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-496",
-          "label": "Palpita magniferalis",
-          "best_score": 0.2828909755,
-          "start_time": "2022-06-21T03:22:00.000",
-          "end_time": "2022-06-21T03:22:00.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-476",
-          "label": "Palpita magniferalis",
-          "best_score": 0.8897904754,
-          "start_time": "2022-06-21T03:10:59.000",
-          "end_time": "2022-06-21T03:10:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-465",
-          "label": "Garella nilotica",
-          "best_score": 0.2677730322,
-          "start_time": "2022-06-21T02:59:59.000",
-          "end_time": "2022-06-21T03:22:00.000",
-          "duration": "P0DT0H22M1S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-463",
-          "label": "Palpita magniferalis",
-          "best_score": 0.4434783161,
-          "start_time": "2022-06-21T02:59:59.000",
-          "end_time": "2022-06-21T02:59:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-462",
-          "label": "Palpita arsaltealis",
-          "best_score": 0.2874729037,
-          "start_time": "2022-06-21T02:59:59.000",
-          "end_time": "2022-06-21T02:59:59.000",
-          "duration": "P0DT0H0M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-472",
-          "label": "Misogada unicolor",
-          "best_score": 0.52840662,
-          "start_time": "2022-06-21T02:59:59.000",
-          "end_time": "2022-06-21T03:10:59.000",
-          "duration": "P0DT0H11M0S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-443",
-          "label": "Palpita magniferalis",
-          "best_score": 0.8085200191,
-          "start_time": "2022-06-21T02:49:00.000",
-          "end_time": "2022-06-21T02:59:59.000",
-          "duration": "P0DT0H10M59S",
-          "deployment": "Vermont-Snapshots-Sample",
-          "event": "2022-06-20"
-        },
-        {
-          "id": "20220620-SEQ-447",
-          "label": "Baileya ophthalmica",
-          "best_score": 0.8429012299,
-          "start_time": "2022-06-21T02:49:00.000",
-          "end_time": "2022-06-21T02:49:00.000",
-          "duration": "P0DT0H0M0S",
           "deployment": "Vermont-Snapshots-Sample",
           "event": "2022-06-20"
         }
